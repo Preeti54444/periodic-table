@@ -1,0 +1,13 @@
+[build]
+  command = "npm install"
+  publish = "public"
+  functions = "functions"
+
+[dev]
+  command = "npm start"
+  port = 3003
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
